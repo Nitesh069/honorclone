@@ -65,8 +65,134 @@ g2
             end:"top 90%"
         }
     })
-
-
+    gsap.from("#a41",{
+        opacity:0,
+        y:100,
+        duration:1,
+        // delay:2,
+        scrollTrigger:{
+            trigger:"#a41",
+            scroller:"body",
+            marker:true,
+            scrub:5,
+            start:"top 90%",
+            end:"top 90%"
+        }
+    })
+    gsap.from("#a42",{
+        opacity:0,
+        y:100,
+        duration:1,
+        // delay:2,
+        scrollTrigger:{
+            trigger:"#a42",
+            scroller:"body",
+            marker:true,
+            scrub:5,
+            start:"top 90%",
+            end:"top 90%"
+        }
+    })
+    gsap.from("#a43",{
+        opacity:0,
+        y:100,
+        duration:1,
+        // delay:2,
+        scrollTrigger:{
+            trigger:"#a43",
+            scroller:"body",
+            marker:true,
+            scrub:5,
+            start:"top 90%",
+            end:"top 90%"
+        }
+    })
+    gsap.from("#a44",{
+        opacity:0,
+        y:100,
+        duration:1,
+        // delay:2,
+        scrollTrigger:{
+            trigger:"#a44",
+            scroller:"body",
+            marker:true,
+            scrub:5,
+            start:"top 90%",
+            end:"top 90%"
+        }
+    })
+    gsap.from("#a45",{
+        opacity:0,
+        y:100,
+        duration:1,
+        // delay:2,
+        scrollTrigger:{
+            trigger:"#a45",
+            scroller:"body",
+            marker:true,
+            scrub:5,
+            start:"top 90%",
+            end:"top 90%"
+        }
+    })
+    gsap.from("#a46",{
+        opacity:0,
+        y:100,
+        duration:1,
+        // delay:2,
+        scrollTrigger:{
+            trigger:"#a46",
+            scroller:"body",
+            marker:true,
+            scrub:5,
+            start:"top 90%",
+            end:"top 90%"
+        }
+    })
+    gsap.from("#a47",{
+        opacity:0,
+        y:100,
+        duration:1,
+        // delay:2,
+        scrollTrigger:{
+            trigger:"#a47",
+            scroller:"body",
+            marker:true,
+            scrub:5,
+            start:"top 90%",
+            end:"top 90%"
+        }
+    })
+    gsap.from("#a48",{
+        opacity:0,
+        y:100,
+        duration:1,
+        // delay:2,
+        scrollTrigger:{
+            trigger:"#a48",
+            scroller:"body",
+            marker:true,
+            scrub:5,
+            start:"top 90%",
+            end:"top 90%"
+        }
+    })
+    gsap.from("#a49",{
+        opacity:0,
+        y:100,
+        duration:1,
+        // delay:2,
+        scrollTrigger:{
+            trigger:"#a49",
+            scroller:"body",
+            marker:true,
+            scrub:5,
+            start:"top 90%",
+            end:"top 90%"
+        }
+    })
+    
+    
 
     var a2=document.querySelector(".c14");
     var a3=document.querySelector(".landing2");
@@ -81,3 +207,5 @@ g2
         a3.style.display="none";
         a4.style.display="block";
     })
+
+    

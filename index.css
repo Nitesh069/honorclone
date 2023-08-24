@@ -292,6 +292,117 @@ font-family: 'Ubuntu', sans-serif;
     {
        vertical-align: baseline;
     }
+
+    #a40
+    {
+        width: 100%;
+        /* border: solid red 2px; */
+        display: flex;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+        margin-top:5vw;
+    }
+    #a41{
+        width: 45%;
+        height: 40vw;
+        /* padding-top: 2vw; */
+        /* border: solid red 2px; */
+    }
+    #a42{
+        width: 45%;
+        height: 40vw;
+        /* padding-top: 2vw; */
+        /* border: solid rgb(34, 255, 0) 2px; */
+    }
+    
+    .c24{
+        width: 100%;
+        
+    }
+    #a43, #a45, #a47, #a49{
+        /* border: solid rgb(34, 255, 0) 2px; */
+        height: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #a44, #a46,#a48, #a50{
+        /* border: solid rgb(34, 255, 0) 2px; */
+        height: 60%;
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .c43
+    {
+        /* letter-spacing: 5px; */
+        font-size: 4vw;
+        font-weight: 700;
+    }
+    .c44
+    {
+        font-size: 3vw;
+        color: rgba(0, 0, 0, 0.854);
+        /* font-weight: 700; */
+    }
+    #a51{
+        font-size: 1.8vw;
+        color: grey;
+        padding:10px 5px;
+    }
+
+    .c47{
+        /* border: solid grey 2px; */
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .c45{
+        background-color: #256fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width:70px;
+        font-weight: 500;
+        height: 30px;
+        border-radius: 10px;
+    }
+    
+    .c46
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-weight: 900;
+    }
+    .c45,.c46:hover{
+        cursor: pointer;
+    }
+    #a44
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #a44 img{
+        width: 30vw;
+    }
+    #a46 img{
+        width: 30vw;
+    }
+    #a48 img{
+        width: 30vw;
+    }
+    #a50 img{
+        width: 30vw;
+    }
+    
 @media (max-width:800px) {
     .landing1{
         font-size: 3vw;
@@ -407,4 +518,42 @@ font-family: 'Ubuntu', sans-serif;
         width: 332vw;
 
     }
+
+    #a40{
+        display: block;
+        
+    }
+    #a41,#a42{
+        width: 100%;
+        height: 115vw;
+    }
+    .c43{
+        font-size: 10vw;
+    }
+    .c44{
+        font-size: 8vw;
+        font-weight: 400;
+    }
+    #a51{
+        font-size: 4vw;
+    }
+    .c45{
+        font-size: 3vw;
+    }
+    .c46{
+        font-size: 3vw;
+    }
+    #a44 img{
+        width: 100vw;
+    }
+    #a46 img{
+        width: 100vw;
+    }
+    #a48 img{
+        width: 100vw;
+    }
+    #a50 img{
+        width: 100vw;
+    }
+    
 }
