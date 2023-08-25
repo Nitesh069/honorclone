@@ -6,6 +6,20 @@
 font-family: 'Ubuntu', sans-serif;
 }
 
+    #theme{
+        height: 30px;
+        width: 30px;
+        border-radius: 10px;
+    }
+    #theme2{
+        height: 30px;
+        width: 30px;
+        border-radius: 10px;
+    }
+    #theme,#theme2:hover{
+        cursor: pointer;
+    }
+
 #landing
 {
     position: absolute;
@@ -24,6 +38,7 @@ font-family: 'Ubuntu', sans-serif;
     gap: 3vw;
     z-index: 2;
 }
+
 .landing2{
     /* border: solid red 2px; */
     width: 90%;
@@ -125,16 +140,22 @@ font-family: 'Ubuntu', sans-serif;
     /* transition: ease-in; */
 }
 
-    #a20
-    {
-        width: 100vw;
-        height: 100%;
-        background-color: #f9f9f9;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    
+.content1 #a20:nth-child(2){
+    background-color: #f9f9f9;
+}
+#a20
+{
+    width: 100vw;
+    height: 100%;
+    /* background-color: #f9f9f9; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* .c20{
+    background-color: #f9f9f9;
+} */
+
     #lord{
         display: flex;
         justify-content: space-around;
@@ -153,7 +174,7 @@ font-family: 'Ubuntu', sans-serif;
         /* flex-wrap: wrap; */
         width: 95%;
         gap: 5vw;
-        
+        /* background-color: black; */
     }
     #lord2{
         display: flex;
@@ -259,7 +280,7 @@ font-family: 'Ubuntu', sans-serif;
     {
         width: 100vw;
         height: 100%;
-        background-color: #f9f9f9;
+        /* background-color: #f9f9f9; */
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -351,12 +372,13 @@ font-family: 'Ubuntu', sans-serif;
     .c44
     {
         font-size: 3vw;
-        color: rgba(0, 0, 0, 0.854);
+        /* color: rgba(0, 0, 0, 0.854); */
         /* font-weight: 700; */
     }
     #a51{
         font-size: 1.8vw;
-        color: grey;
+        /* color: grey; */
+        opacity: 0.5;
         padding:10px 5px;
     }
 
@@ -383,7 +405,7 @@ font-family: 'Ubuntu', sans-serif;
         display: flex;
         justify-content: center;
         align-items: center;
-        color: black;
+        /* color: black; */
         font-weight: 900;
     }
     .c45,.c46:hover{
@@ -407,7 +429,174 @@ font-family: 'Ubuntu', sans-serif;
     #a50 img{
         width: 30vw;
     }
-    
+
+    #a60{
+        width: 100%;
+        /* border: solid red 2px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: auto;
+    }
+    #a63{
+
+        width: 90%;
+        height: auto;
+    }
+    #a61{
+        background-image: url(honor-ifa-2023-pc-1.jpg);
+        background-attachment: cover;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        height: 30vw;
+        margin-top: 15vw;
+        /* margin:0 15vw; */
+    }
+    #a64{
+        color: white;
+        /* border: solid red 2px; */
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        padding-left: 50px;
+        gap: 2vw;
+    }
+    #a65{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #a66{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    #a67{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    #a67:hover{
+        cursor: pointer;
+    }
+    #a62{
+        /* background-image: url(honor-ifa-2023-pc-1.jpg); */
+        background-attachment: cover;
+        /* border: solid red 2px; */
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        height: 50vw;
+        display: flex;
+        align-items:center;
+        justify-content:space-between;
+        /* margin:0 15vw; */
+    }
+    #a68{
+        width: 48%;
+        /* border: solid blue 2px; */
+        background-image: url(honor-talents-2023-pc.-v4.jpg);
+        /* background-attachment: cover; */
+        background-position: center;
+        margin-top: 15vw;
+        
+        background-size: cover;
+        height: 30vw;
+    }
+    #a69{
+        background-image: url(magic-moments-awards-2023-mb.jpg);
+        background-position: center;
+        margin-top: 15vw;
+        
+        background-size: cover;
+        width: 48%;
+        /* border: solid blue 2px; */
+        height: 30vw;
+    }
+    #a70
+    {
+        padding-left: 50px;
+        display: flex;
+        align-items: left;
+        justify-content:end;
+        /* border: solid yellow 2px; */
+        height: 100%;
+        flex-direction: column;
+        gap: 2vw;
+
+    }
+    #a71{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    #a72{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    #a73{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    #a73:hover{
+        cursor: pointer;
+    }
+    #a74{
+        color: white;
+        padding-left: 50px;
+        display: flex;
+        align-items: left;
+        justify-content:end;
+        /* border: solid yellow 2px; */
+        height: 100%;
+        flex-direction: column;
+        gap: 2vw;
+    }
+
+    #a90
+    {
+        width: 100%;
+        /* border: solid red 2px; */
+        background-color: black;
+        padding-top: 5vw;
+    }
+    #a91{
+        width: 100%;
+        height: 100%;
+        /* border: solid blue 2px; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .c93 li{
+        list-style: none;
+        margin-top: 5px;
+    }
+    .c94{
+        color: white;
+        opacity: 1;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .c93 li a{
+        text-decoration: none;
+        color: white;
+        opacity: .5;
+        font-size: 10px;
+    }
+
+    #a92
+    {
+        width: 100%;
+        /* border: solid red 2px; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+        padding:3vw 0vw;
+    }
+
 @media (max-width:800px) {
     .landing1{
         font-size: 3vw;
@@ -433,6 +622,18 @@ font-family: 'Ubuntu', sans-serif;
         margin-right: 50px;
         /* background-color: pink; */
 
+    }
+    #theme{
+        width: 20px;
+        height: 20px;
+        margin-right: 2vw;
+        /* background-color: #256fff; */
+    }
+    #theme2{
+        width: 20px;
+        height: 20px;
+        margin-right: 2vw;
+        /* background-color: #256fff; */
     }
     .c13{
         /* background-color: red; */
@@ -563,5 +764,80 @@ font-family: 'Ubuntu', sans-serif;
     #a50 img{
         width: 100vw;
     }
-    
+    #a63{
+        height: auto;
+    }
+    #a61{
+        height: 90vh;
+        margin-top: 15vw;
+    }
+    #a62{
+        flex-direction: column;
+        height: auto;
+    }
+    #a68{
+        height: 90vh;
+        width: 100%;
+        margin-top: 15vw;
+    }
+    #a69{
+        height: 90vh;
+        width: 100%;
+        /* padding-top: 15vw; */
+    }
+    #a70{
+        justify-content: end;
+        padding-bottom:15vw ;
+    }
+    #a74{
+        justify-content: end;
+        padding-bottom:15vw ;
+    }
+    #a71{
+        font-size: 3vw;
+        font-weight: 600;
+    }
+    #a72{
+        font-size: 7vw;
+        font-weight: 600;
+    }
+    #a73{
+        font-size: 3vw;
+        font-weight: 600;
+    }
+    #a65{
+        font-size: 3vw;
+        font-weight: 600;
+    }
+    #a66{
+        font-size: 7vw;
+        font-weight: 600;
+    }
+    #a67{
+        font-size: 3vw;
+        font-weight: 600;
+    }
+    #a91{
+        display: block;
+        padding-left: 5vw;
+        padding-top: 5vw;
+    }
+    #a92{
+        display: block;
+        padding-left: 5vw;
+        padding-top: 5vw;
+        gap: 5vw;
+    }
+    #a101{
+        margin-bottom: 5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #a102{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
 }
