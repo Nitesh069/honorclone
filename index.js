@@ -202,10 +202,21 @@ g2
         a3.style.display="block";
         a3.style.transition="ease-in";
         a4.style.display="none";
+
+        gsap.from(".landing2",{
+            opacity:0,
+            x:-100,
+            duration:.5
+        })
     })
     a5.addEventListener("click",function(){
         a3.style.display="none";
         a4.style.display="block";
+        gsap.from(".content1",{
+            opacity:0,
+            x:-100,
+            duration:.5
+        })
     })
 
     

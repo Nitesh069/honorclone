@@ -22,7 +22,12 @@ font-family: 'Ubuntu', sans-serif;
     font-size: 1.5vw;
     font-weight: 600;
     gap: 3vw;
-    z-index: 99;
+    z-index: 2;
+}
+.landing2{
+    /* border: solid red 2px; */
+    width: 90%;
+    /* display: none; */
 }
 .content{
     /* padding-left: 30px; */
@@ -30,7 +35,7 @@ font-family: 'Ubuntu', sans-serif;
     /* padding-top: 30px; */
     /* background-color: aqua; */
     width: 90vw;
-    z-index: 99;
+    z-index: 1;
     background-color: white;
     /* left: -100%; */
     display: none;
@@ -407,6 +412,9 @@ font-family: 'Ubuntu', sans-serif;
     .landing1{
         font-size: 3vw;
     }
+    /* .landing2{
+        display:block ;
+    } */
     .content{
         justify-content: space-between;
         /* background-color: aqua; */
