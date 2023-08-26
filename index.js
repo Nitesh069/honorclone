@@ -221,7 +221,7 @@ g2
     })
     gsap.from("#a68",{
         opacity:0,
-        x:-100,
+        y:100,
         duration:1,
         // delay:2,
         scrollTrigger:{
@@ -249,7 +249,7 @@ g2
         })
     gsap.from("#a69",{
         opacity:0,
-        x:100,
+        y:100,
         duration:1,
         // delay:2,
         scrollTrigger:{
@@ -288,8 +288,8 @@ g2
 
         gsap.from(".landing2",{
             opacity:0,
-            x:-100,
-            duration:.5
+            y:-100,
+            duration:.7
         })
     })
     a5.addEventListener("click",function(){
@@ -297,7 +297,7 @@ g2
         a4.style.display="block";
         gsap.from(".content1",{
             opacity:0,
-            x:-100,
+            y:100,
             duration:.5
         })
     })
@@ -456,8 +456,10 @@ g2
         lord3.style.backgroundColor="white";
         a35.style.backgroundColor="white";
         a40.style.backgroundColor="white";
+        landing2.style.backgroundColor="white";
         
         theme2.style.backgroundColor="black";
+        landing2.style.color="black";
         c14.style.color="black";
         a11.style.color="black";
         c1212.style.color="black";
@@ -469,6 +471,14 @@ g2
         c1218.style.color="black";
         c1219.style.color="black";
         c1220.style.color="black";
+        a1212.style.color="black";
+        a1213.style.color="black";
+        a1214.style.color="black";
+        a1215.style.color="black";
+        a1216.style.color="black";
+        a1217.style.color="black";
+        a1218.style.color="black";
+        a1219.style.color="black";
         lord.style.color="black";
         lord2.style.color="black";
         lord3.style.color="black";
